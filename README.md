@@ -22,7 +22,7 @@ We have made a laser tripwire with Python and Raspberry Pi. This can be used as 
 * The LED is a polar component as well. Place it into the breadboard and connect the longer leg to GPIO 18 and the shorter leg into one of the ground pins.
 
 ## Circuit Diagram:
-
+![Image of Tripwire Circuit] (https://github.com/Rishav-Chowdhury/Laser-Tripwire/blob/main/Circuit.png)
 ## Code:
 ```python
 from gpiozero import LightSensor, Buzzer, LED
