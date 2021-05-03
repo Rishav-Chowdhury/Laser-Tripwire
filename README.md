@@ -34,7 +34,7 @@ led = LED(18)
 
 while True:
     sleep(0.1)
-    if ldr.value < 0.5:               #Adjust the value to change the sensitivity of the system
+    if ldr.value < 0.5:      #Adjust the value to change the sensitivity of the system
         buzzer.on()
         led.on()
         print("Intruder Detected!")
@@ -43,3 +43,4 @@ while True:
         buzzer.off()
         led.off()
 ```
+
